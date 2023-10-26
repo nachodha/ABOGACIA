@@ -3,7 +3,7 @@
 }
 
 .contenedor {
-    background-color: rgba(151, 150, 150, 0.991);
+    background-color: rgb(244, 241, 241);
     height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -12,12 +12,14 @@
 }
 
 .tarjeta {
-    background-color: rgba(226, 223, 223, 0.991);
+    background-color: rgb(244, 241, 241);
 }
 
 .nombre{
-    background-color: rgba(226, 223, 223, 0.991);
+    background-color: rgb(244, 241, 241);
     color: rgb(63, 62, 62);
+    font-family: 'Gabarito', sans-serif;
+    font-weight: bold;
     width: 100vw;
     display: flex;
     padding-top: 13px ;
@@ -27,8 +29,10 @@
 }
 
 .profesion{
-    background-color: rgba(226, 223, 223, 0.991);
+    background-color: rgb(244, 241, 241);
     color: rgba(245, 8, 8, 0.904);
+    font-family: 'Gabarito', sans-serif;
+    font-weight: 100;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -38,22 +42,47 @@
 }
 
 .servicios{
-    background-color: rgba(226, 223, 223, 0.991);
+    background-color: rgb(244, 241, 241);
     width: 100vw;
     display: flex;
     justify-content: center;
-    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 .contactos {
-    background-color: rgba(226, 223, 223, 0.991);
-    width: 100vw;
+    background-color: green;
+    width: 50vw;
+    height: 5vh;
+    margin-left: 25vw;
+    margin-top: 10px;
+    padding: 3px;
+    text-decoration: none;
     display: flex;
-    justify-content: center;
-    margin: 0px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 60px;
+    box-shadow: rgb(167, 165, 165) 3px 2px;
 }
 
-@media (prefers-color-scheme: dark) {
+.fa {
+    background-color: green;
+    color: white;
+    padding-right: 10px;
+    border-radius: 60px;
+}
+
+h6 {
+    background-color: green;
+    color: white;
+    font-size: larger;
+    padding-left: 10px;
+}
+
+/* MEDIA PARA DARK MODE*/
+
+
+/*@media (prefers-color-scheme: dark) {
 
     * {
         background-color: rgb(244, 241, 241);
@@ -110,4 +139,4 @@
         margin: 0px;
     }
 
- }
+ }*/
