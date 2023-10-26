@@ -1,0 +1,54 @@
+* {
+    background-color: rgb(244, 241, 241);
+}
+
+.contenedor {
+    background-color: rgba(226, 223, 223, 0.991);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta {
+    background-color: rgba(226, 223, 223, 0.991);
+}
+
+.nombre{
+    background-color: rgba(226, 223, 223, 0.991);
+    color: rgb(63, 62, 62);
+    width: 100vw;
+    display: flex;
+    padding-top: 13px ;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+.profesion{
+    background-color: rgba(226, 223, 223, 0.991);
+    color: rgba(245, 8, 8, 0.904);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.servicios{
+    background-color: rgba(226, 223, 223, 0.991);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.contactos {
+    background-color: rgba(226, 223, 223, 0.991);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
