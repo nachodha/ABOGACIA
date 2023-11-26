@@ -79,6 +79,12 @@ h6 {
     padding-left: 10px;
 }
 
+@media (min-width: 800px) {
+    .contactos {
+        width: 25vw;
+        margin-left: 37vw;
+    }
+}
 /* MEDIA PARA DARK MODE*/
 
 
